@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gacha Nomor Kosong</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>🎰 Gacha Nomor Kosong</h1>
+  <p>Putar mesin gacha, dapatkan nomor impianmu!</p>
+</header>
+
+<main class="container">
+  <div class="gacha-box">
+    <div class="slot-machine" id="slot">???</div>
+    <button class="btn btn-gacha" id="btnGacha" onclick="tarikGacha()">🎲 TARIK GACHA (Rp 25.000)</button>
+    <p id="gachaStatus" class="status-text"></p>
+  </div>
+
+  <h2 class="section-title">Stok Tersedia</h2>
+  <div class="grid" id="grid">
+    <p class="loading">Memuat stok...</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <a href="admin.html" class="admin-link">🔐 Admin</a>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, sans-serif; }
+
+body { background: #0f172a; color: #f8fafc; padding-bottom: 40px; }
+
+.header {
+  text-align: center; padding: 30px 20px;
+  background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+  border-bottom: 2px solid #334155;
+}
+.header h1 { font-size: 24px; color: #38bdf8; text-shadow: 0 0 10px rgba(56,189,248,0.5); }
+.header p { font-size: 13px; color: #94a3b8; margin-top: 5px; }
+
+.container { max-width: 500px; margin: 0 auto; padding: 20px; }
+
+.gacha-box {
+  background: #1e293b; border-radius: 20px; padding: 30px 20px;
+  text-align: center; border: 2px solid #334155;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5); margin-bottom: 30px;
+}
+.slot-machine {
+  font-size: 28px; font-weight: 900; letter-spacing: 2px; color: #fff;
+  background: #000; padding: 20px; border-radius: 12px; margin-bottom: 20px;
+  border: 3px solid #475569; min-height: 80px; display: flex;
+  align-items: center; justify-content: center;
+  text-shadow: 0 0 15px #38bdf8; transition: 0.3s;
+}
+
+.btn { width: 100%; padding: 16px; border: none; border-radius: 12px; font-weight: bold; font-size: 16px; cursor: pointer; transition: 0.2s; }
+.btn-gacha { background: #38bdf8; color: #0f172a; box-shadow: 0 4px 15px rgba(56,189,248,0.4); }
+.btn-gacha:active { transform: scale(0.95); }
+
+.status-text { margin-top: 10px; font-size: 13px; color: #10b981; font-weight: bold; }
+
+.section-title { font-size: 18px; margin-bottom: 15px; border-left: 4px solid #38bdf8; padding-left: 10px; }
+
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.card { background: #1e293b; border-radius: 12px; padding: 15px; border: 1px solid #334155; }
+.card .negara { font-size: 11px; color: #94a3b8; font-weight: bold; }
+.card .nomor { font-size: 16px; font-weight: bold; margin: 5px 0; color: #fff; }
+.card .harga { font-size: 13px; color: #f43f5e; font-weight: bold; }
+
+/* Admin Style */
+.admin-container { max-width: 500px; margin: 0 auto; padding: 20px; }
+.admin-card { background: #1e293b; border-radius: 16px; padding: 20px; margin-bottom: 20px; border: 1px solid #334155; }
+.form-group { margin-bottom: 15px; }
+.form-group label { display: block; font-size: 12px; color: #94a3b8; margin-bottom: 5px; }
+.form-group input, .form-group select { width: 100%; padding: 12px; background: #0f172a; border: 1px solid #475569; border-radius: 8px; color: #fff; font-size: 14px; }
+.btn-primary { background: #10b981; color: #fff; margin-top: 10px; }
+.btn-danger { background: #ef4444; color: #fff; padding: 8px; font-size: 12px; width: auto; margin-top: 10px; }
+.hidden { display: none; }
+.footer { text-align: center; margin-top: 20px; }
+.admin-link { color: #475569; text-decoration: none; font-size: 12px; }
